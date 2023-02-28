@@ -4,7 +4,7 @@ import React from 'react';
 import allEnglishWords from 'an-array-of-english-words';
 
 export default function App() {
-  const STARTING_TIME=5
+  const STARTING_TIME=60
 
   const[words,setWords]= React.useState("");
   const [count,setCount] = React.useState(0);
